@@ -1,0 +1,13 @@
+/* Подключение основных файлов */
+@import "vendor/reset";
+
+/* Подключение основных стилей */
+@import "basis";
+
+/* Подключение стилей блоков */
+
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/banner";
+
+/* Подключение вендорных библиотек */

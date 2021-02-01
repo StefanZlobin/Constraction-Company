@@ -593,6 +593,7 @@ body {
 
 .about__info-target-item {
     border: 1px solid #f3f4f8;
+    border-radius: 0.3rem;
     box-sizing: border-box;
     padding: 0 1rem;
     margin-bottom: 1rem;
@@ -607,10 +608,11 @@ body {
     box-sizing: border-box;
     padding: 1.5rem 2rem;
     font-size: 1.4rem;
+    display: none;
 }
 
-.about__info-text {
-    display: none;
+.about .active {
+    background-color: #fdbe34;
 }
 
 .banner {
@@ -650,6 +652,81 @@ body {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+}
+
+.experience {
+    display: flex;
+}
+
+.experience__left {
+    background-color: #f8f9fd;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 50%;
+}
+
+.experience__left-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience__left-body-year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 11rem;
+}
+
+.experience__number {
+    line-height: 1;
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin-right: 2rem;
+}
+
+.experience__text {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__left-body-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience__right {
+    background-color: #fdbe34;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 50%;
+}
+
+.experience__right-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience__right-body-expert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience__right-body-equipments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Подключение вендорных библиотек */

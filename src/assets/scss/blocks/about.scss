@@ -69,6 +69,7 @@
 
    &__info-target-item {
       border: 1px solid #f3f4f8;
+      border-radius: 0.3rem;
 
       box-sizing: border-box;
       padding: 0 1rem;
@@ -91,11 +92,16 @@
       padding: 1.5rem 2rem;
 
       font-size: 1.4rem;
+
+      display: none;
    }
 
    // .about__info-text
 
    &__info-text {
-      display: none;
+   }
+
+   .active {
+      background-color: #fdbe34;
    }
 }

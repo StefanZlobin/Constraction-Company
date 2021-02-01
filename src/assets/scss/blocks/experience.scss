@@ -1,0 +1,101 @@
+.experience {
+   display: flex;
+
+   // .experience__left
+
+   &__left {
+      background-color: #f8f9fd;
+
+      height: 20rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1 1 50%;
+   }
+
+   // .experience__left-body
+
+   &__left-body {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   // .experience__left-body-year
+
+   &__left-body-year {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin-right: 11rem;
+   }
+
+   // .experience__number
+
+   &__number {
+      line-height: 1;
+      font-weight: 700;
+      font-size: 5rem;
+      color: rgba($color: #000000, $alpha: 0.8);
+
+      margin-right: 2rem;
+   }
+
+   // .experience__text
+
+   &__text {
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      line-height: 1.3;
+      font-weight: 800;
+      color: rgba($color: #000000, $alpha: 0.8);
+
+      display: flex;
+      flex-direction: column;
+   }
+
+   // .experience__left-body-projects
+
+   &__left-body-projects {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   // .experience__right
+
+   &__right {
+      background-color: #fdbe34;
+
+      height: 20rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1 1 50%;
+   }
+
+   // .experience__right-body
+
+   &__right-body {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   // .experience__right-body-expert
+
+   &__right-body-expert {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   // .experience__right-body-equipments
+
+   &__right-body-equipments {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+}

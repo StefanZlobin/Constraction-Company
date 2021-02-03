@@ -1,13 +1,15 @@
 .header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-
-   height: 10rem;
-
-   padding: 0 5rem;
-
    background-color: #00043c;
+
+   // .header__wrapper
+
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: 10rem;
+   }
 
    // .header__logo
 

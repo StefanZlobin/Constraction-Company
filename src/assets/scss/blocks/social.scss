@@ -1,0 +1,38 @@
+.social {
+   display: flex;
+   justify-content: center;
+
+   margin-top: 3rem;
+
+   // .social__items
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+
+   // .social__item
+
+   &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 0 0 20%;
+   }
+
+   // .social__img
+
+   &__img {
+      max-width: 35%;
+      object-fit: cover;
+
+      background-color: #e8edf0;
+      border-radius: 50%;
+   }
+
+   // .social__info
+
+   &__info {
+   }
+}

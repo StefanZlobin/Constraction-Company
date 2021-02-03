@@ -21,4 +21,4 @@ $(window).scroll(function () {
       });
       check = 0;
    }
-});
+})
